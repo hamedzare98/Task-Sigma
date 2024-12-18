@@ -365,12 +365,27 @@ img.div-link-img {
         margin-top: 20px;
         margin-bottom: 0;
         gap: 20px;
+        padding-bottom: 20px;
+        padding-top: 0;
     }
     .first-section-img img {
         display: none;
     }
-    .first-section-text h1 , .split-left h2{
-        font-size: 30px;
+    .first-section-text h1{
+        font-size: 24px;
+    }
+    .split-left h2 , .split-right-section h2{
+        font-size: 24px;
+        text-align: center;
+    }
+    .split-left p{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .div-link{
+        flex-direction: column;
+        align-items: center;
     }
     .first-section-text{
         flex:content;
@@ -380,15 +395,25 @@ img.div-link-img {
         list-style: none;
         margin: 20px;
         justify-content: space-evenly;
-        display: flex
-;
+        display: flex;
+        gap:20px;
+    }
+    .nav-links li{
+        margin: 0;
+    }
+    img.split-right-img , .split-left-section-img{
+        width: 100%;
     }
     .split-left-section {
         text-align: center;
+        width: 100%;
     }
     .info-card {
         margin: 0;
         width: 100%;
+        margin-top: 20px;
     }
-    
+    .info-card-icon{
+        margin-top: 20px;
+    }
 }
