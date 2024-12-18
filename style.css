@@ -363,13 +363,25 @@ img.div-link-img {
         flex-direction: column;
         align-items: center;
         margin-top: 20px;
+        margin-bottom: 0;
         gap: 20px;
     }
     .first-section-img img {
         display: none;
     }
-    .first-section .slider-container {
-        display: none;
+    .first-section-text h1 , .split-left h2{
+        font-size: 30px;
+    }
+    .first-section-text{
+        flex:content;
+        margin: 50px;
+    }
+    .split-left-ul {
+        list-style: none;
+        margin: 20px;
+        justify-content: space-evenly;
+        display: flex
+;
     }
     .split-left-section {
         text-align: center;
@@ -378,20 +390,5 @@ img.div-link-img {
         margin: 0;
         width: 100%;
     }
-    .first-section::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url("./images/memphis-1.jpg");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        z-index: -1;
-    }
-    .controls {
-        display: none;
-    }
+    
 }
